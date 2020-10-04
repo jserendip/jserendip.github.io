@@ -16,11 +16,40 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+/* Create two columns/boxes that float next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #d3f0f0;
+  padding: 20px;
+}
+
+
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
   </head>
-  <body>
-    <h1>Communication is Key!</h1>
+  <header>
+  <h1>Communication is Key!</h1>
+  </header>
+  <section>
+  <nav>
+    <ul>
+	  <li><a href="index.html" title="link to Home">Home</a></li>
+      <li><a href="gisapplications.html" title="link to GIS page in this directory">GIS Applications</a></li>
+      <li><a href="communications.html" title="link to Communicatinos page on this directory">Communications Specialist</a></li>
+      <li><a href="educator.html" title="link to Educator page on this directory">Educator</a></li>
+    </ul>
+  </nav>
+  
+  <article>
     <p>James has worked in corporate communications, as a freelance write, 
 	and as a clinical hypnotherapist - communicating with the subconscious mind!</p>
-  </body>
+  </article>
+  </section>
 </html>
