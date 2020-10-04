@@ -16,6 +16,22 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+/* Create two columns/boxes that float next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #d3f0f0;
+  padding: 20px;
+}
+
+
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
   </head>
   <section>
