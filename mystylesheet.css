@@ -13,14 +13,13 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-h3 {
-	color:rgb(46, 190, 223)
-}
 
+/* set the nav bar to center */
 li {
-  float: left;
+  float: center;
 }
 
+/* create a block for the nav bar */
 li a {
   display: block;
   color: white;
@@ -30,10 +29,11 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover for nav bar */
 li a:hover {
   background-color: #111;
 }
+
 /* Style the header */
 header {
   background-color: #058d8d;
@@ -41,6 +41,11 @@ header {
   text-align: center;
   font-size: 35px;
   color: white;
+}
+
+/* change color of heading 3 items */
+h3 {
+	color:rgb(46, 190, 223)
 }
  
 /* set image to float right */
