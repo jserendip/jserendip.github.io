@@ -39,36 +39,34 @@ header {
   font-size: 35px;
   color: white;
 }
+/*set a container for text and image on index page */
+.container {
+    border: 3px solid blue;
+    padding: 20px 40px 40px;
+    max-width: 640px;
+    &__image {
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        margin: 20px 30px 0 0;
+    }
+    &__text {
+        display: inline-block;
+        width: 46%;
+        @media (max-width: 620px) {
+            width: 100%;
+        }
+    }
+	
 /* Style the content */
 article {
   float: left;
   padding: 20px;
   width: 70%;
   background-color: hsl(77, 53%, 89%);
-  }
-/* Set background image for index page body */
-#photobody {
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: left;
-    justify-content: left;
+  
 }
 
-#photobody::before {    
-      content: "";
-      background-image: url("images/jamesportrait.jpg");
-      background-size: 30%;
-	  background-repeat: no-repeat;
-	  background-position: right top;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.45;
-}
 
 
 /* Style the footer */
