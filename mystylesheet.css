@@ -60,7 +60,7 @@ article {
 #photobody::before {    
       content: "";
       background-image: url("images/jamesportrait.jpg");
-      background-size: cover;
+      background-size: contain;
       position: absolute;
       top: 0px;
       right: 0px;
@@ -69,13 +69,7 @@ article {
       opacity: 0.45;
 }
 
-h1 {
-  position: relative;
-  color: #ffffff;  
-  font-size: 14rem;
-  line-height: 0.9;
-  text-align: center;
-}
+
 
 
 /* Style the footer */
