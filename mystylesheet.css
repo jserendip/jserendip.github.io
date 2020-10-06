@@ -48,15 +48,33 @@ article {
   padding: 10px;
 }
 /* Set background image for index page body */
-#photobody
-{
-  background-image: url("images/jamesportrait.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: contain;
-  margin-right: 200px;
-  opacity: 0.3;
-  background-attachment: fixed;
+#photobody {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#photobody::before {    
+      content: "";
+      background-image: url("images/jamesportrait.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.45;
+}
+
+h1 {
+  position: relative;
+  color: #ffffff;  
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
 }
 
 
