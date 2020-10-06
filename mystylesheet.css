@@ -40,6 +40,17 @@ header {
   color: white;
 }
 
+/* Set background image for index page body */
+#photobody
+{
+  background-image: url("/jamesportrait.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  opacity: 0.3;
+  background-attachment: fixed;
+}
+
 
 /* Style the footer */
 footer {
