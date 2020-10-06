@@ -49,6 +49,7 @@ header {
         float: right;
     }
     &__text {
+		display: inline;
         float: left;
         }
     }
