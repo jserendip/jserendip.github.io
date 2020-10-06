@@ -47,21 +47,7 @@ article {
   background-color: hsl(77, 53%, 89%);
   
 }
-div.relative {
-  float: left;
-  width: 30%;
-  background-image: url("images/jamesportrait.jpg");
-      background-size: 30%;
-	  background-repeat: no-repeat;
-	  background-position: right top;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.65;
-  padding: 20px;
-}
+
 
 
 /* Style the footer */
