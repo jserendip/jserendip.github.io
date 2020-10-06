@@ -16,7 +16,7 @@ ul {
 
 /* set the nav bar to center */
 li {
-  float: center;
+  float: left;
 }
 
 /* create a block for the nav bar */
@@ -42,6 +42,10 @@ header {
   font-size: 35px;
   color: white;
 }
+/* label p elements to set paragraph spacing */
+p {  
+            white-space: pre-line; 
+        } 
 
 /* change color of heading 3 items */
 h3 {
