@@ -39,19 +39,22 @@ header {
   font-size: 35px;
   color: white;
 }
-/* set image to float right */
-img {
-	float: right;
-}
 
-/* Style the content */
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: hsl(77, 53%, 89%);
-  
-}
+/* set a container for index page to hold side-by-side floating text and image */
+.container {
+    border: 3px solid blue;
+    padding: 20px 40px 40px;
+    max-width: 640px;
+    &__image {
+        width: 250px;
+        margin: 30px 30px 30px 0;
+        float: right;
+    }
+    &__text {
+		display: inline;
+        float: left;
+        }
+    }
 
 
 
