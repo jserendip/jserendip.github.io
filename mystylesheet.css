@@ -5,7 +5,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Style for the Horizontal Nav Bad */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  display: inline;
+}
 /* Style the header */
 header {
   background-color: #058d8d;
