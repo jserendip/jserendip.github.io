@@ -60,7 +60,7 @@ article {
 #photobody::before {    
       content: "";
       background-image: url("images/jamesportrait.jpg");
-      background-size: 50%;
+      background-size: 30%;
 	  background-repeat: no-repeat;
 	  background-position: right top;
       position: absolute;
