@@ -46,6 +46,7 @@ header {
   background-image: url("images/jamesportrait.jpg");
   background-repeat: no-repeat;
   background-position: right top;
+  background-size: contain;
   margin-right: 200px;
   opacity: 0.3;
   background-attachment: fixed;
