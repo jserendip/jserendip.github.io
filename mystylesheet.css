@@ -61,6 +61,7 @@ article {
       content: "";
       background-image: url("images/jamesportrait.jpg");
       background-size: contain;
+	  background-repeat: no-repeat;
       position: absolute;
       top: 0px;
       right: 0px;
