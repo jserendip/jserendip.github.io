@@ -48,25 +48,31 @@ article {
   padding: 10px;
 }
 /* Set background image for index page body */
-#photobody {
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.portraitbackground {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
 }
-
-#photobody::before {    
-      content: "";
-      background-image: url("images/jamesportrait.jpg");
-      background-size: contain;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.45;
+.portraitbackground p {
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+}
+/* Set image properties after the text properties */
+.portraitbackground:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("images/jamesportrait.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
 }
 
 
