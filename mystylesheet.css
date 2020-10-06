@@ -7,9 +7,10 @@ body {
 }
 /* Style for the Horizontal Nav Bad */
 ul {
-  list-style-type: none;
+    list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 li {
@@ -33,10 +34,3 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
